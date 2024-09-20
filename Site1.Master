@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="PhoneMate.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>PhoneMate</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+    <h1><a href="Home.aspx" style="text-decoration: none; color: black;">PhoneMate.com</a></h1>
+
+<div id="links" style="display: flex; gap: 15px; padding: 10px;">
+    <asp:HyperLink ID="AddContact" runat="server" NavigateUrl="~/AddContact.aspx" style="text-decoration: none; color: blue;">Add a Contact</asp:HyperLink>
+    <asp:HyperLink ID="EditContact" runat="server" NavigateUrl="~/EditContact.aspx" style="text-decoration: none; color: blue;">Edit existing Contact</asp:HyperLink>
+    <asp:HyperLink ID="DeleteContact" runat="server" NavigateUrl="~/DeleteContact.aspx" style="text-decoration: none; color: blue;">Delete a Contact</asp:HyperLink>
+    <asp:HyperLink ID="MyGroups" runat="server" NavigateUrl="~/MyGroups.aspx" style="text-decoration: none; color: blue;">My Groups</asp:HyperLink>
+    <asp:HyperLink ID="Me" runat="server" NavigateUrl="~/Me.aspx" style="text-decoration: none; color: blue;">Me</asp:HyperLink>
+    <asp:HyperLink ID="Logout" runat="server" NavigateUrl="~/Logout.aspx" style="text-decoration: none; color: blue;">Logout</asp:HyperLink>
+</div>
+    <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+
+</body>
+</html>
