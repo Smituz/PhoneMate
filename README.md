@@ -16,10 +16,10 @@
 **PhoneMate** simplifies contact management by providing a streamlined interface to keep track of phone contacts. It leverages the power of ASP.NET Core MVC for backend logic and Entity Framework for database interactions, ensuring a smooth experience for users to maintain their contact lists.
 
 ## Features
-- Add new contacts with details such as name, phone number, and email.
+- Add new contacts with details such as name, phone number, email, address, Instagram ID, X ID etc.
 - Edit or delete existing contacts.
-- Search contacts by name or phone number.
-- Responsive design for a seamless experience across different devices.
+- Search contacts by Name.
+- Differentiate and group your contacts by putting them in a group of your choice at the time of contact creation.
 - Data stored securely in an integrated SQL Server database.
   
 ## Screenshots
@@ -34,9 +34,6 @@ Here are a few glimpses of the *PhoneMate* application:
 ### My Groups Page
 ![image](https://github.com/user-attachments/assets/3f9ebd2e-2509-4a9c-8baf-e3a527a77424)
 
-
-
-*Note: Add your project screenshots in the `assets` folder and reference them here.*
 
 ## Prerequisites
 To run the *PhoneMate* application on your local machine, you will need to have the following installed:
