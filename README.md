@@ -1,7 +1,7 @@
 # PhoneMate
 # PhoneMate
 
-**PhoneMate** is a user-friendly ASP.NET Core MVC application developed to manage and organize your phone contacts efficiently. The application allows users to add, edit, delete, and search contacts with ease. It was built by [your name] and my friend [Saif Huseni](https://github.com/saifhuseni) using .NET Core MVC and Microsoft Visual Studio.
+**PhoneMate** is a user-friendly ASP.NET Core MVC application developed to manage and organize your phone contacts efficiently. The application allows users to add, edit, delete, and search contacts with ease. It was built by me and my friend [Saif Huseni](https://github.com/saifhuseni) using .NET Core MVC and Microsoft Visual Studio.
 
 ## Table of Contents
 - [Overview](#overview)
