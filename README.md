@@ -40,8 +40,8 @@ To run the *PhoneMate* application on your local machine, you will need to have 
 
 - [Visual Studio 2022](https://visualstudio.microsoft.com/)
 - [.NET Core SDK 6.0](https://dotnet.microsoft.com/download/dotnet/6.0)
-- [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) (Express or full version)
-- [Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/) (included with .NET Core)
+- [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
+- [ADO.NET](https://learn.microsoft.com/en-us/dotnet/framework/data/adonet/ado-net-overview)
   
 ## Setup Instructions
 Follow these steps to get *PhoneMate* up and running on your machine:
